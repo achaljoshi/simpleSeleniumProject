@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ASX Online Test Suite" verbose="1" parallel="false" thread-count="1">
+    <test name="ASX Online Website Tests">
+        <classes>
+            <class name="com.asx.test.SimpleASXOnlineTest">
+                <methods>
+                    <include name="testASXOnlineWebsite"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
